@@ -32,7 +32,7 @@ setuptools.setup(
     url='https://github.com/michaelkryukov/mongomock_motor',
     packages=setuptools.find_packages(include=('mongomock_motor',)),
     install_requires=[
-        'mongomock>=3.23.0,<5.0.0',
+        'mongomock>=4.1.2,<6.0.0',
     ],
     python_requires='>=3.6',
     classifiers=[
